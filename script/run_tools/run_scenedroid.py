@@ -18,6 +18,6 @@ class SceneDroid(ToolExecutor):
 
 
 if __name__ == '__main__':
-    ape = SceneDroid("/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid/apks_version2/org.wikipedia_50458.apk", "3000")
-    # ape = SceneDroid("apks/fdroid/net.kourlas.voipms_sms_146.apk", "3000")
+    ape = SceneDroid("/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid.txt/apks_version2/org.wikipedia_50458.apk", "3000")
+    # ape = SceneDroid("apks/fdroid.txt/net.kourlas.voipms_sms_146.apk", "3000")
     ape.run()

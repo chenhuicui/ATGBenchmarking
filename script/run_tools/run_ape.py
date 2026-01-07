@@ -13,6 +13,6 @@ class Ape(ToolExecutor):
 
 
 if __name__ == '__main__':
-    ape = Ape("/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid/apks_version1/android.jonas.fakestandby_11.apk", "360")
-    # ape = Ape("apks/fdroid/net.kourlas.voipms_sms_146.apk", "360")
+    ape = Ape("/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid.txt/apks_version1/android.jonas.fakestandby_11.apk", "360")
+    # ape = Ape("apks/fdroid.txt/net.kourlas.voipms_sms_146.apk", "360")
     ape.run()

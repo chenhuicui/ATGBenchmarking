@@ -28,7 +28,7 @@ if __name__ == '__main__':
 
     # arg parsing
 
-    parser = argparse.ArgumentParser(description='Process to download fdroid.')
+    parser = argparse.ArgumentParser(description='Process to download fdroid.txt.')
 
     # Define the arguments
     parser.add_argument('--result_dir', type=str, help='Result directory', required=True)
@@ -52,7 +52,7 @@ if __name__ == '__main__':
 
     print(f"Current version is {get_current_version()}")
 
-    # apk = "/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid/apks_version1/android.jonas.fakestandby_11.apk"
+    # apk = "/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid.txt/apks_version1/android.jonas.fakestandby_11.apk"
     #
     # current_tools = run_tools(apk, test_time)
     # tools.extend(current_tools)

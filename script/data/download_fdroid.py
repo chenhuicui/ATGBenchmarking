@@ -1,6 +1,6 @@
-# read urls from "result/fdroid/urls_version1.txt"
-# download apks from fdroid
-# save apks to downloaded/fdroid/apks_version1
+# read urls from "result/fdroid.txt/urls_version1.txt"
+# download apks from fdroid.txt
+# save apks to downloaded/fdroid.txt/apks_version1
 import argparse
 import os
 import time
@@ -33,7 +33,7 @@ def download_apk(url, apk_path):
 if __name__ == '__main__':
 
     # Create the parser
-    parser = argparse.ArgumentParser(description='Process to download fdroid.')
+    parser = argparse.ArgumentParser(description='Process to download fdroid.txt.')
 
     # Define the arguments
     parser.add_argument('--urls_path', type=str, help='Path to the file containing URLs')
@@ -43,8 +43,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Access the arguments
-    urls_path = args.urls_path
-    apk_dir = args.apk_dir
+    urls_path = "/Users/cuichenhui/Documents/local-repositories/transition-graph-workspace/ATGBenchmarking/atgbuilder/androzoo.txt"
+    apk_dir = '/Volumes/Extreme Pro/atg_apks'
 
     print(f'URLs Path: {urls_path}')
     print(f'APK Directory: {apk_dir}')

@@ -13,6 +13,6 @@ class Monkey(ToolExecutor):
 
 
 if __name__ == '__main__':
-    ape = Monkey("/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid/apks_version1/android.jonas.fakestandby_11.apk", "360")
-    # ape = Monkey("apks/fdroid/net.kourlas.voipms_sms_146.apk", "360")
+    ape = Monkey("/media/DATA/jkliu-data/Projects/ATGEmpirical/apks/downloaded/fdroid.txt/apks_version1/android.jonas.fakestandby_11.apk", "360")
+    # ape = Monkey("apks/fdroid.txt/net.kourlas.voipms_sms_146.apk", "360")
     ape.run()
